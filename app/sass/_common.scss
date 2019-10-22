@@ -1,0 +1,155 @@
+.home {
+    background: url(../img/home1.png) 100% 100% no-repeat;
+    background-size: cover; 
+    padding-top: 70px;
+    padding-bottom: 200px;
+    max-height: 700px;
+    text-align: right;
+
+    &__title {
+        color: $color-primary;
+
+        &:first-child {
+            padding-top: 200px;
+            font-weight: normal;
+
+            @media (max-width:$breakpoint-md) {
+                padding-top: 100px;
+            }
+            @media (max-width:$breakpoint-sm) {
+                padding-top: 50px;
+            }
+        }
+    }
+
+
+}
+
+.about {
+    background-color: $bg-color;
+
+    &__title {
+        padding-top: 15px;
+        color: $color-primary;
+    }
+
+    &__text {
+        color: $text-main-color;
+        padding-bottom: 15px;
+    }
+}
+
+.about-items {
+    padding: 60px 0;
+    background-color: $bg-second-color;
+}
+
+.about-item {
+
+    &__title {
+        padding: 15px 0;
+        color: #fff;
+    }
+
+    &__img {
+        padding-left: 10px;
+    }
+
+    &__img-items {
+        padding-left: 5px;
+    }
+
+    @media (max-width: $breakpoint-sm) {
+        padding: 0;
+    }
+}
+
+.menu {
+    padding-top: 80px;
+    background-color: $bg-color;
+    text-align: center;
+
+    &__title:nth-child(2) {
+        padding-bottom: 40px;
+    }
+
+    &__items {
+        padding-top: 50px;
+        background: $bg-second-color;
+    }
+}
+
+.menu-item {
+    text-align: center;
+    padding: 0 20px;
+
+    &__img {
+        width: 277.5px;
+
+        @media (max-width: $breakpoint-sm) {
+            
+        }
+    }
+
+    &__price {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    @media (max-width: $breakpoint-xs) {
+        padding: 0;
+    }
+
+}
+
+.contact {
+    padding: 150px 0;
+    background: $bg-color;
+    color: $color-primary;
+    text-align: center;
+
+    &__author {
+        padding-bottom: 20px;
+        font-weight: 700;
+    }
+
+    @media (max-width: $breakpoint-md) {
+        padding: 100px 0;
+    }
+
+    @media (max-width: $breakpoint-sm) {
+        padding: 70px 0;
+    }
+}
+
+.social {
+    
+    &__img {
+        display: inline-flex;
+        background: url(../img/social.png) no-repeat;
+        width: 47px;
+        height: 47px;
+        margin-right: 10px;
+
+        &--facebook {
+            background-position: 0 0;
+        }
+
+        &--twitter {
+            background-position: -71px 0;
+        }
+
+        &--instagram {
+            background-position: -142px 0;
+        }
+
+        &--pinterest {
+            background-position: -213px 0;
+        }
+
+        &--google {
+            background-position: -284px 0;
+            margin-right: 0;
+        }
+    }
+}

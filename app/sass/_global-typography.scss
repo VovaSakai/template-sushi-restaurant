@@ -1,0 +1,42 @@
+.typo-h1 {
+  font-size: $font-size--h1;
+  font-family: $font-family--h;
+  font-weight: 700;
+  line-height: 60.39px;
+  text-transform: uppercase;
+
+  @media (max-width: $breakpoint-sm) {
+    font-size: $font-size--h1-sm;
+  }
+
+  @media (max-width: $breakpoint-xs) {
+    font-size: $font-size--h1-xs;
+  }
+}
+
+.typo-h2 {
+  font-size: $font-size--h2;
+  font-family: $font-family;
+  font-weight: 700;
+  line-height: 60px;
+
+  @media (max-width: $breakpoint-md) {
+    font-size: $font-size--h2-md;
+    line-height: 40px;
+  }
+}
+
+.typo-h3 {
+  font-size: $font-size--h3;
+  font-family: $font-family;
+  font-weight: 700;
+}
+
+.typo-h4 {
+  font-size: $font-size--h4;
+  font-weight: 700;
+}
+
+.typo-color-primary {
+  color: $color-primary;
+}

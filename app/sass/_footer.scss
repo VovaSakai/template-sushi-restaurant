@@ -1,0 +1,14 @@
+.page-footer {
+    padding: 40px 0;
+    background: $bg-second-color;
+
+    &__wrap {
+        display: flex;    
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+
+    @media (max-width: $breakpoint-sm) {
+        padding: 20px 0;
+    }
+}

@@ -1,0 +1,45 @@
+ /*Vars*/
+$color-primary: #97ad71;
+$color-secondary: #484b3e;
+
+$text-main-color: #ababab;
+$text-secondary-color: rgb(102, 102, 102);
+$link-color: #5B595B;
+
+$font-family: 'Roboto', sans-serif;
+$font-family--h: 'Roboto';
+
+$font-size: 16px;
+$font-size--h1: 60px;
+$font-size--h1-sm: 40px;
+$font-size--h1-xs: 40px;
+$font-size--h2: 45px;
+$font-size--h2-md: 26px;;
+$font-size--h3: 24px;
+$font-size--h4: 18px;
+
+$line-height: 1.5;
+
+$btn-bg: #55ec42;
+$btn-bg--dark: darken($btn-bg, 10%);
+
+$bg-color: #262626;
+$bg-second-color: #474a3d;
+
+$breakpoint-xs: 576px;
+$breakpoint-sm: 768px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+
+/*Helper classes*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {clear: both;}
+
+.clearfix {
+    *zoom: 1;
+}
