@@ -21,8 +21,6 @@
             }
         }
     }
-
-
 }
 
 .about {
@@ -84,10 +82,10 @@
     padding: 0 20px;
 
     &__img {
-        width: 277.5px;
+        min-width: 277.5px;
 
-        @media (max-width: $breakpoint-sm) {
-            
+        @media (max-width: $breakpoint-md) {
+            margin: 0 auto;
         }
     }
 
